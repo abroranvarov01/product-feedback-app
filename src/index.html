@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body class="bg-mainBg">
+    <main>
+        <section class="pt-[94px] leading-[-0.01em]">
+            <div class="container">
+                <div class="flex gap-[30px]">
+                    <div class="w-[255px]">
+                        <div
+                            class="rounded-[10px] bg-[radial-gradient(166.82%_166.82%_at_103.9%_-10.39%,_rgb(232,_77,_112)_0%,_rgb(163,_55,_246)_53.088635206222534%,_rgb(40,_167,_237)_100%)]">
+                            <div class="pt-[62px] pr-[78px] pb-[24px] pl-[24px] mb-[24px]">
+                                <h2 class="font-bold text-[20px] text-white text-nowrap">
+                                    Frontend Mentor
+                                </h2>
+                                <p class="text-white text-[15px] font-medium opacity-[0.75]">
+                                    Feedback Board
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="py-[24px] pr-[34px] pl-[24px] bg-white flex flex-wrap gap-x-[8px] gap-y-[14px] rounded-[10px] mb-[24px] category_tab">
+                            <!-- <button class="bg-btnBg rounded-[10px] py-[6px] px-[15px] font-semibold text-tetxColor">
+                                All
+                            </button>
+                            <button class="bg-btnBg rounded-[10px] py-[6px] px-[15px] font-semibold text-tetxColor">
+                                UI
+                            </button>
+                            <button class="bg-btnBg rounded-[10px] py-[6px] px-[15px] font-semibold text-tetxColor">
+                                UX
+                            </button>
+                            <button class="bg-btnBg rounded-[10px] py-[6px] px-[15px] font-semibold text-tetxColor">
+                                Enhancement
+                            </button>
+                            <button class="bg-btnBg rounded-[10px] py-[6px] px-[15px] font-semibold text-tetxColor">
+                                Bug
+                            </button>
+                            <button class="bg-btnBg rounded-[10px] py-[6px] px-[15px] font-semibold text-tetxColor">
+                                Feature
+                            </button> -->
+                        </div>
+                        <div class="p-[24px]  bg-white  rounded-[10px] mb-[24px]">
+                            <div class="flex items-center justify-between mb-[24px]">
+                                <h2 class="text-[18px] font-bold text-txt ">
+                                    Roadmap
+                                </h2>
+                                <p class="text-[13px] font-semibold underline text-tetxColor">
+                                    View
+                                </p>
+                            </div>
+                            <ul class="grid grid-cols-1 gap-[8px]">
+                                <li class="flex justify-between items-center">
+                                    <p class="font-normal text-[16px] text-Ptext">
+                                        Planned
+                                    </p>
+                                    <p class="font-bold text-[16px] text-Ptext">
+                                        2
+                                    </p>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <p class="font-normal text-[16px] text-Ptext">
+                                        In-Progress
+                                    </p>
+                                    <p class="font-bold text-[16px] text-Ptext">
+                                        3
+                                    </p>
+                                </li>
+                                <li class="flex justify-between items-center">
+                                    <p class="font-normal text-[16px] text-Ptext">
+                                        Live
+                                    </p>
+                                    <p class="font-bold text-[16px] text-Ptext">
+                                        1
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-[100%]">
+                        <div class="p-[14px] bg-headBg rounded-[10px] flex items-center justify-between mb-[24px]">
+                            <div class="flex gap-[38px]">
+                                <div class="flex items-center gap-[16px] ">
+                                    <a href="#">
+                                        <img src="./img/logo.svg" alt="">
+                                    </a>
+                                    <h1 class="font-bold tetx-[18px] text-white">
+                                        6 Suggestions
+                                    </h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <p class="text-[14px] text-btnBg font-normal bg-headBg">
+                                        Sort by :
+                                    </p>
+                                    <p class="text-[14px] text-btnBg font-bold"">
+                                        Most Upvotes
+                                    </p>
+                                </div>
+                            </div>
+                            <button class=" py-[12.5px] px-[25px] bg-purp text-btnBg tetx-[14px] font-bold
+                                        rounded-[10px]">
+                                        + Add Feedback
+                                        </button>
+                                </div>
+                                <ul class="grid grid-cols-1 gap-[20px] items_list">
+                                    <!-- <li
+                                        class="bg-[#fff] flex justify-between items-center pt-[28px] pr-[38px] pb-[28px] pl-[38px] rounded-[10px] mb-[20px] ">
+                                        <div class="flex gap-[40px]">
+                                            <div
+                                                class="w-[40px] h-[53px] pt-[14px] pb-[8px] bg-[#f2f4fe] rounded-[10px] text-center">
+                                                <div class="pl-[16px] pr-[16px] ">
+                                                    <img src="./img/arrow_top.svg" alt="img" />
+                                                </div>
+                                                <p
+                                                    class="text-[#3a4374] pl-[9px] pr-[9px] text-[13px] font-[700] mb-[8px]">
+                                                    ${item.id}</p>
+                                            </div>
+                                            <div>
+                                                <h2 class="font-bold text-[18px] text-[#3a4374] mb-[4px]">${item.title}
+                                                </h2>
+                                                <p class="font-normal text-[16px] text-[#647196] mb-[12px]">
+                                                    ${item.description}</p>
+                                                <a class="bg-[#f2f4ff] rounded-[10px] pt-[5px] pr-[16px] pb-[5px] pl-[16px] font-semibold text-[13px] text-[#4661e6]"
+                                                    href="#">${item.type}</a>
+                                            </div>
+                                        </div>
+                                        <div class="flex gap-[8px] justify-center">
+                                            <img src="./img/com.svg" alt="img">
+                                            <p>${item.votes}</p>
+                                        </div>
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+    </main>
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
